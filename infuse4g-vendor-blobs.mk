@@ -21,7 +21,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/infuse4g/proprietary/vendor/firmware/bcm4330_mfg.bin:system/vendor/firmware/bcm4330_mfg.bin \
     vendor/samsung/infuse4g/proprietary/vendor/firmware/bcm4330_sta.bin:system/vendor/firmware/bcm4330_sta.bin \
-	vendor/samsung/infuse4g/proprietary/vendor/firmware/bcm4330_aps.bin:system/vendor/firmware/bcm4330_aps.bin \
+	vendor/samsung/infuse4g/proprietary/vendor/firmware/bcm4330_apsta.bin:system/vendor/firmware/bcm4330_apsta.bin \
     vendor/samsung/infuse4g/proprietary/bin/BCM4330B1_002.001.003.0043.0061.hcd:system/bin/BCM4330B1_002.001.003.0043.0061.hcd \
     vendor/samsung/infuse4g/proprietary/vendor/firmware/nvram_net.txt:system/vendor/firmware/nvram_net.txt \
     vendor/samsung/infuse4g/proprietary/vendor/firmware/melfas_touchkey.kcm.bin:system/vendor/firmware/melfas_touchkey.kcm.bin \
@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/infuse4g/proprietary/vendor/lib/libtvoutservice.so:system/vendor/lib/libtvoutservice.so \
     vendor/samsung/infuse4g/proprietary/vendor/bin/tvoutserver:system/vendor/bin/tvoutserver \
     vendor/samsung/infuse4g/proprietary/vendor/bin/pvrsrvinit:system/vendor/bin/pvrsrvinit \
-    vendor/samsung/infuse4g/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/samsung/infuse4g/proprietary/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so:system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so \
     vendor/samsung/infuse4g/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
     vendor/samsung/infuse4g/proprietary/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
@@ -61,4 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/infuse4g/proprietary/vendor/lib/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
     vendor/samsung/infuse4g/proprietary/vendor/lib/libsrv_init.so:system/vendor/lib/libsrv_init.so \
     vendor/samsung/infuse4g/proprietary/vendor/lib/libsrv_um.so:system/vendor/lib/libsrv_um.so \
-    vendor/samsung/infuse4g/proprietary/vendor/lib/libusc.so:system/vendor/lib/libusc.so
+    vendor/samsung/infuse4g/proprietary/vendor/lib/libusc.so:system/vendor/lib/libusc.so \
+    vendor/samsung/infuse4g/proprietary/app/Viper.apk:system/app/Viper.apk \
+    vendor/samsung/infuse4g/proprietary/lib/soundfx/libv4a_fx_ics.so:system/lib/soundfx/libv4a_fx_ics.so
