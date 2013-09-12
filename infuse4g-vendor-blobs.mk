@@ -61,5 +61,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/infuse4g/proprietary/vendor/lib/libsrv_init.so:system/vendor/lib/libsrv_init.so \
     vendor/samsung/infuse4g/proprietary/vendor/lib/libsrv_um.so:system/vendor/lib/libsrv_um.so \
     vendor/samsung/infuse4g/proprietary/vendor/lib/libusc.so:system/vendor/lib/libusc.so \
-    vendor/samsung/infuse4g/proprietary/app/Viper.apk:system/app/Viper.apk \
-    vendor/samsung/infuse4g/proprietary/lib/soundfx/libv4a_fx_ics.so:system/lib/soundfx/libv4a_fx_ics.so
+    vendor/samsung/infuse4g/proprietary/modem.bin:modem.bin
